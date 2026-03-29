@@ -1,1 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Westfield School</title>
 
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #5a0000, #b30000);
+        color: white;
+        text-align: center;
+    }
+
+    .card {
+        max-width: 400px;
+        margin: 60px auto;
+        background: rgba(0,0,0,0.4);
+        padding: 25px;
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
+
+    img {
+        width: 120px;
+        border-radius: 50%;
+        margin-bottom: 15px;
+        border: 3px solid white;
+    }
+
+    h1 {
+        margin: 10px 0;
+    }
+
+    p {
+        opacity: 0.9;
+        line-height: 1.5;
+    }
+
+    .link {
+        display: block;
+        background: white;
+        color: #b30000;
+        text-decoration: none;
+        margin: 12px 0;
+        padding: 12px;
+        border-radius: 8px;
+        font-weight: bold;
+        transition: 0.2s;
+    }
+
+    .link:hover {
+        background: #eee;
+        transform: scale(1.05);
+    }
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <!-- LOGO -->
+    <img src="https://cdn.discordapp.com/attachments/1481395095650435265/1487914076452556891/42014a9c309af4e4186cac95853010ee.png?ex=69cadf77&is=69c98df7&hm=6d0cc6f006893faaeab4d488f8df1298c2832d0bbcd87662b3ed732b768f6ee2" alt="Westfield Logo">
+
+    <h1>Westfield Primary School</h1>
+
+    <p>
+    Together, everyone achieves more!<br><br>
+
+    Westfield Primary School is a Primary School located in Redbridge, East London.
+    We are a growing school and aim to give opportunities and support to all students and staff.
+    </p>
+
+    <!-- LINKS -->
+    <a class="link" href="https://www.roblox.com/communities/615335517/Westfield-Primary-School-WPS#!/about" target="_blank">
+        🎮 Join Roblox Group
+    </a>
+
+    <a class="link" href="https://discord.gg/R69QMbmFQ2" target="_blank">
+        💬 Join Discord
+    </a>
+
+</div>
+
+</body>
+</html>
